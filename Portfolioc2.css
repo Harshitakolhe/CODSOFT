@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,6 @@ body {
     padding: 0;
 }
 
-/* Hero Section */
 header {
     text-align: center;
     padding: 5rem 2rem;
@@ -32,7 +31,6 @@ header p {
     margin-top: 1rem;
 }
 
-/* About Section */
 .about {
     padding: 4rem 2rem;
     text-align: center;
@@ -51,7 +49,6 @@ header p {
     line-height: 1.6;
 }
 
-/* Skills Section */
 .skills {
     padding: 4rem 2rem;
     background-color: #fff;
@@ -89,7 +86,6 @@ header p {
     color: #555;
 }
 
-/* Projects Section */
 .projects {
     padding: 4rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
@@ -145,8 +141,6 @@ header p {
     background-color: rgb(85, 52, 0);
 }
 
-
-/* Contact Section */
 .contact {
     padding: 4rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
@@ -211,7 +205,6 @@ header p {
     background-color: rgb(85, 52, 0);
 }
 
-/* Resume Section */
 .resume {
     padding: 4rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
@@ -236,8 +229,6 @@ header p {
     background-color: rgb(85, 52, 0);
 }
 
-
-/* Footer Section */
 footer {
     background-color: rgb(109, 67, 0);
     color: white;
@@ -261,7 +252,6 @@ footer .social-media a:hover {
     text-decoration: underline;
 }
 
-/* Navigation Bar Styling */
 .navbar {
     background-color: #333; 
     position: fixed;
