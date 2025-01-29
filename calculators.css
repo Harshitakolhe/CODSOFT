@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Calculator Container */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 80px); /* 4 columns */
+    grid-gap: 10px; /* Spacing between buttons */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Calculator Display */
+.calculator-display {
+    grid-column: span 4; /* Span all 4 columns */
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 2rem;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Buttons */
+button {
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 15px; /* More rounded buttons */
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: #333;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s ease; /* Add transform transition */
+}
+
+/* Button Hover Zoom Effect */
+button:hover {
+    background-color: #d6d6d6;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    transform: scale(1.1); /* Zoom-in effect */
+}
+
+/* Special Buttons */
+button.clear {
+    background-color: #ff5f5f;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(255, 95, 95, 0.3);
+}
+
+button.clear:hover {
+    background-color: #e04d4d;
+    box-shadow: 0 8px 15px rgba(255, 95, 95, 0.4);
+}
+
+button:nth-child(16) {
+    background-color: #4caf50; /* Equals button */
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(76, 175, 80, 0.3);
+}
+
+button:nth-child(16):hover {
+    background-color: #45a045;
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.4);
+}
+
